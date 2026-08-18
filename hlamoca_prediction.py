@@ -47,9 +47,9 @@ warnings.filterwarnings('ignore')
 # ==================== Default paths (relative to script location) ====================
 _SCRIPT_DIR = os.path.abspath(os.path.dirname(__file__))
 DEFAULT_MODEL_PATH = os.path.join(_SCRIPT_DIR, 'model', 'best_fusion_model.h5')
-DEFAULT_IMMUNOGENICITY_MODEL = os.path.join(_SCRIPT_DIR, 'model', 'finetuned_immunogenicity_model.h5')
-DEFAULT_BACKGROUND_PKL = os.path.join(_SCRIPT_DIR, 'supporting_files', 'background_distributions.pkl')
-DEFAULT_SUPPORT_PATH = os.path.join(_SCRIPT_DIR, 'supporting_files')
+DEFAULT_IMMUNOGENICITY_MODEL = os.path.join(_SCRIPT_DIR, 'model', 'best_finetuned_model.h5')
+DEFAULT_BACKGROUND_PKL = os.path.join(_SCRIPT_DIR, 'supporting_file', 'background_distributions_dict_updated.pkl')
+DEFAULT_SUPPORT_PATH = os.path.join(_SCRIPT_DIR, 'supporting_file')
 # =====================================================================================
 
 # Amino acid index
